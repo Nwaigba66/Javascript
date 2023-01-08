@@ -1,0 +1,476 @@
+body {
+	background-color: #abd9fa;
+	background-image: url(images/url2.jpg);
+	background-attachment: fixed;
+	margin: 0px; 
+}
+                    
+#header {
+	height: 165px; 
+	background-color: #859cfa;
+	background-image:url(images/main_head.gif) 
+}
+#navigation {
+	height:35px;
+	background-color: #c8dcfd;
+	background-image: url(images/nav.png)
+}
+#headline {
+	height: 25px;
+	background-color: #072cba;
+	
+}
+#content {
+	height: 800px;
+	background-color: #edf0fe;
+	
+}
+#footer {
+	height: 50px;
+	background-color: #051d7c;
+	background-image: url(images/footer_bottom.jpg);
+}
+
+#wrapper {
+	width: 1000px;
+	margin: auto;
+}
+
+#navigation a{
+	text-decoration: none;
+	color: red;
+	font-family: calibri;
+	font-size: 15px;
+	padding-left: 65px;
+	padding-right:65px;
+	float: left;
+	border-left: 1px inset #202786;
+	border-right: 1px inset #202786;
+	line-height: 35px
+	
+}
+
+#navigation a:hover {
+	background-color: #ff6262;
+	color: #ffffff;
+	text-decoration: underline;
+	background-image:url(images/hover.png); 
+}
+#headline marquee {
+	color: white;
+	font-family: calibri;
+	margin: 0px 10px;
+	line-height: 25px;
+}
+#sidebar {
+	width: 250px;
+	height: 550px;
+	float: left;
+	background-color: #414141;
+}
+#maincontent {
+	width: 750px;
+	height: 550px;
+	float: left;
+	background-color: #ecf7fd;
+}
+#bottomcontent {
+	width: 1000px;
+	height: 250px;
+	float: left;
+	background-color: #166d9c;
+}
+#sidebar h2 {
+	margin: 5px;
+	color: red;
+	font-family: calibri;
+}
+#sidebar a {
+	color: cccccc;
+	text-decoration: none;
+	width: 250px;
+	float: left;
+	text-align: center;
+	height:25px;
+	line-height: 25px;
+	background-color: #212121;
+	border-top: 1px inset #cccccc;
+	border-bottom: 1px outset #cccccc;
+	font-family: calibri;
+	font-size: 15px;
+}
+	
+#sidebar a:hover {
+	color: #efefef;
+	background-color: #101010;
+}
+ 
+#sidebar marquee {
+	color: #ffffff;
+	margin: 5px;
+	text-align: justify;
+	font-family: calibri;
+}
+
+#leftbox {
+	width: 350px;
+	margin-left:  15px;
+	margin-right: 10px;
+	float: left;
+
+}
+
+#rightbox {
+	width: 350px;
+	margin-left:  15px;
+	margin-right: 10px;
+	float: right;
+
+}
+
+#maincontent h2{
+	margin: 5px 15px;
+	color:#bdcc06;
+	font-family: calibri;
+}
+
+
+#leftbox h2 {
+	text-align: left;
+	margin: 0px;
+	font-family: calibri;
+	font-size: 18px;
+	color: #ac0000;
+	border-bottom: 1px solid #ac0000;
+}
+
+#rightbox h2 {
+	text-align: right;
+	margin: 0px;
+	font-family: calibri;
+	font-size: 18px;
+	color: #ac0000;
+	border-bottom: 1px solid #ac0000;
+}
+#footer P {
+	color: white;
+	margin: 0px;
+	text-align: center;
+	line-height: 50px;
+	font-family: calibri;
+
+}
+
+#footer a {
+	color:yellow;
+	text-decoration: none;	
+	
+}
+#footer a:hover {
+	color:orange;
+	text-decoration: underline;	
+}
+
+.bottom_info {
+	width: 321px;
+	height: 238px;
+	border: 1px skyblue dotted;
+	float: left;
+	margin: 5px;
+
+}
+.bottom_pix {
+	width: 150px;
+	height: 120px;
+	border: 1px skyblue dotted;
+	float: left;
+	margin: 5px;
+	}
+
+
+.bottom_info p{
+	color: #ffffff;
+	margin: 3px;
+	font-family: calibri;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.bottom_info a {
+	width: 100px;
+	height: 25px;
+	margin: 3px;
+	background color: #550000;
+	border-radius: 5px;
+	float: left;
+	color: #ebfe01;
+	font-family: calibri;
+	font-size: 13px;
+	text-align: center;
+	line-height: 25px;
+	text-decoration: none;
+	border: 1px yellow solid;
+}
+
+.bottom_info a:hover {
+	color: orange;
+	background-color: #110000;
+	border: 1px orange solid;
+}
+
+#snack_pix {
+	width: 300px;
+	height: 280px;
+	float: left;
+	margin: 10px;
+}
+#maincontent p {
+	margin: 10px;
+	margin-bottom: 25px;
+	font-family: arial;
+	font-size: 15px;
+	color:#710000;
+	text-align: justify;
+	
+}
+.about_info {
+	height: 250px;
+	margin: 10px;
+	border-top: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+
+}
+.about_pix {
+	width: 228px;
+	height: 228px;
+	margin: 10px;
+	border: 1px solid #242426;
+	float: left;
+	
+}
+#about {
+	width: 750px;
+	height: 550px;
+	overflow-y: scroll;
+}
+.about_info a {
+	width: 90px;
+	height: 20px;
+	margin: 3px;
+	background color: #060c4f;
+	border-radius: 5px;
+	float: left;
+	color: #ebfe01;
+	font-family: calibri;
+	font-size: 13px;
+	text-align: center;
+	line-height: 25px;
+	text-decoration: none;
+	border: 1px yellow solid;
+}
+
+.about_info a:hover {
+	color: red;
+	background-color: #110000;
+	border: 1px orange solid;
+		
+}
+#gallery {
+	width:700px;
+	height:450px;
+	border: 5px solid #212121;
+	background-color: #cdcdcd;
+	margin: auto;
+	margin-top: 15px;
+}
+#main_gallery {
+	height: 400px;
+	background-color: #ff0000;
+	
+}
+#gallery_nav {
+	height: 48px;
+	background-color: #ffff00;
+	border-top: 2px solid #212121;
+}
+#prev {
+	width: 150px;
+	height: 48px;
+	float: left;
+	
+}
+#next {
+	width: 150px;
+	height: 48px;
+	float: right;
+}
+#gallery_nav a{
+	width: 148px;
+	height: 40px;
+	margin: 4px 0px;
+	background-color: #000000;
+	float: left;
+	border: 1px inset red;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+	color: red;
+	text-decoration: none;
+	font-family: arial;
+}
+#gallery_nav a:hover{
+	background-color: red;
+	color: black;
+	text-decoration:underline;
+	border: 1px inset black;
+	
+	
+}
+#register fieldset {
+	margin:10px;
+	border: 1px solid #3648c9;
+	}
+	
+#register legend {
+	font-size:18px;
+	font-family: Arail;
+	color: #3648c9;
+}
+
+#register {
+	
+	width: 750px;
+	height: 550px;
+	Overflow-Y: scroll;
+	}
+	
+.reg1{
+		color: #a20000;
+		font-weight: bold;
+	 
+}
+.reg2 {
+	color: #861778;
+	font-weight: bold;
+	
+}
+
+
+#contact table {
+	 margin: 10px auto;
+	 border-left: 1px solid red;
+	 border-top: 1px solid red;
+	 
+}
+#contact th {
+	 border-right: 1px solid red;
+	 border-bottom: 1px solid red;
+	 height: 50px;
+	 background-color: #550000;
+	 color: #ffb3b3;
+	 font-family: arial;
+	 font-size: 18px;
+}
+
+#contact td {
+	 border-right: 1px solid red;
+	 border-bottom: 1px solid red;
+	 padding: 5px;
+	 font-family: arial;
+}
+.branch {
+	 background-color: black;
+	 color: white;
+	 text-transform: uppercase;
+	 font-weight: bold;
+	 text-align: center;
+}
+.phone {
+	font-size: 12px;
+	background-color: #c0f87c;
+	color: #135b13;
+	font-style: italic;
+}
+.location {
+	font-size: 14px;
+	background-color:#be6341; 
+	color:  #6b0347;
+	font-style: italic;
+}
+.email {
+	font-size: 14px;
+	background-color:#0335fc;
+	color: #df0414;
+	font-style: italic;
+}
+#contact a {
+	color: red;
+}
+
+#contact a:hover {
+		color: #d9a826;
+		text-decoration: none;
+	}
+	
+	
+
+
+
+</* sample, note arrangement doesnt matter on the css
+#one {
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	margin: 10px;
+	border: solid 5px red;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	line-height: 200px;
+	font-size:50px;
+	font-family: calibri;
+	color:red;
+	text-decoration: underline;
+		
+}
+
+#two {
+	width: 200px;
+	height: 200px;
+	background-color:#72f9fc ;
+	margin: 10px;
+	border: solid 5px #1217ed;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	line-height: 200px;
+	font-size:50px;
+	font-family: calibri;
+	color: #1217ed;
+	text-decoration: underline;
+	
+	}
+	
+.box {
+	width: 120px;
+	height: 120px;
+	background-color:#b4f777; 
+	margin: 10px;
+	border: solid 5px #1c931c;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	line-height: 120px;
+	font-size:50px;
+	font-family: calibri;
+	color:1c931c;
+	text-decoration: underline;
+	
+	}
+	<div id ="one">1</div>
+<div id ="two">2</div>
+<div class="box">3</div>
+<div class="box">4</div>
+	
+*/>
